@@ -1,0 +1,53 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.hero{
+    height: 100vh;
+    position: relative;
+    /* background-color: black; */
+}
+
+.top{
+    background-color: #E24D1D;
+    clip-path: circle(86% at 100% 0%);
+    height: 50%;
+    width: 40%;
+    position: absolute;
+    right: 0px;
+}
+
+.bottom{
+    background-color: #E24D1D;
+    clip-path: circle(87% at 100% 100%);
+    height: 50%;
+    width: 40%;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+}
+
+.image{
+    border-radius: 50%;
+    position: absolute;
+    top: 230px;
+    right: 170px;
+    height: 310px;
+    width: 340px;
+    z-index: 2;
+    border: solid 5px #cd3a09;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img{
+    border-radius: 50%;
+    position: absolute;
+    top: 16px;
+    right:14px;
+    height: 280px;
+    width: 310px;
+    z-index: 2;
+}

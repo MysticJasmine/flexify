@@ -1,0 +1,157 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Roboto", sans-serif;
+}
+
+body{
+    background-image: url(images/bg2.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+nav{
+    display: flex;
+    gap: 25%;
+    align-items: center;
+    height:5%;
+    padding: 5px 150px;
+}
+
+nav img{
+    height: 125px;
+    width: 160px;
+}
+
+.nav-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5%;
+    gap: 70px;
+}
+
+.nav-content a{
+    list-style: none;
+    text-decoration: none;
+    font-size:x-large;
+    font-weight: bold;
+    color: black;
+}
+
+section{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding: 45px 150px;
+}
+
+.bounce{
+    position: absolute;
+    top: 16%;
+    right:10px;
+    height: 550px;
+    animation: bounce 2s infinite;
+}
+
+@keyframes bounce{
+    50%{
+        height: 550px;
+        transform: translateY(-35px);
+    }
+}
+
+.dumbell{
+    position: absolute;
+    top: -75px;
+    left:120px;
+    height: 550px;
+    width: 100px;
+}
+
+.main{
+    height:460px;
+    width: 30%;
+    border-radius: 10px;
+    background-color: #f77127;
+background-image: linear-gradient(160deg, #f77127 0%, #fec19f 100%);
+
+    padding:20px 50px;
+}
+
+.sign-in{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+}
+
+.sign-in p{
+    font-size:60px;
+    font-weight: bold;
+}
+
+.sign-in button{
+    height: 30px;
+    width: 110px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2px;
+    font-size: 15px;
+    background-color:transparent;
+    border: none;
+}
+
+.icon{
+    height: 35px;
+    width: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: whitesmoke;
+    border-radius: 7px;
+}
+
+input{
+    height: 20px;
+    width: 340px;
+    border-radius: 15px;
+    padding: 10px;
+    margin-top:10px;
+    border: none;
+}
+
+.password{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: fit-content;
+}
+
+.sign-up{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.signup{
+    font-weight: bold;
+    font-size: large;
+}
+
+.main .btn{
+    height: 45px;
+    width: 110px;
+    border-radius: 15px;
+    font-size: medium;
+    font-weight:540;
+    background-color: #F77127;
+    border: none;
+}
+
+
+
+
+
