@@ -51,3 +51,18 @@ img{
     width: 310px;
     z-index: 2;
 }
+.navbar img{
+    height: 40px;
+}
+.nav_Link{
+    display: flex;
+    gap: 20px;
+}
+.nav_Link a{
+    text-decoration: none;
+    color: #16ace8;
+    font-weight: 700;
+}
+.logo{
+    height: 200px;
+}
